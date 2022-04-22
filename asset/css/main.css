@@ -29,3 +29,28 @@
     z-index: -1001;
   
 }
+
+#audio{
+    left: 30%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+}
+
+.figure{
+    background-color: #a96161;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.figure-caption{
+    margin: 5px;
+    color: #d9c4c4;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.appStory{
+    background-color: black;
+}

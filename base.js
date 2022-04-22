@@ -1,4 +1,4 @@
-// dem ngay
+
 const get_day_of_time = (d1, d2) => {
     let ms1 = d1.getTime();
     let ms2 = d2.getTime();
@@ -7,6 +7,8 @@ const get_day_of_time = (d1, d2) => {
 
 
 $( document ).ready(function() {
+
+
     let startLove = new Date(2022,03,17);
     let today = new Date();
     let time = get_day_of_time(startLove,today)
@@ -17,4 +19,7 @@ $( document ).ready(function() {
         timeLine.text(`${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`)
     },1000)
   });
+
+
+
 //
